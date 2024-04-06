@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+h1 {
+    background: linear-gradient(135deg, #00aaff, #0077cc); /* 渐变蓝色 */
+}
+
+h2 {
+    background: linear-gradient(135deg, #00cc66, #00994d); /* 渐变绿色 */
+}
+
+p {
+    background: linear-gradient(135deg, #66ccff, #3399ff); /* 渐变浅蓝色 */
+}
+
+.light-blue {
+    background: linear-gradient(135deg, #b3e0ff, #99ccff); /* 浅蓝色 */
+}
+
+.light-green {
+    background: linear-gradient(135deg, #b3ffb3, #99e699); /* 浅绿色 */
+}
